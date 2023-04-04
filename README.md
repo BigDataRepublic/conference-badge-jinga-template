@@ -2,6 +2,8 @@
 
 This is a Flask application that generates conference badges for attendees. It uses a 4-fold model and Jinja templating to create unique badges for each visitor.
 
+![Example Badge](images/badge_example.png)
+
 ## Usage
 
 ### Run the Flask Webserver with help of the Dockerfile
