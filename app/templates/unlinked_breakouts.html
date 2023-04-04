@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block content %}
+  <body class="overview">
+    <table>
+      <thead>
+        <tr>
+          <th>Key</th>
+          <th>Date</th>
+          <th>Morning Breakout</th>
+          <th>Afternoon Breakout</th>
+          <th>-</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for key, attendee in unlinked_breakouts.items() %}
+        <tr>
+          <td>{{ key }}</td>
+          <td>{{ attendee['date'] }}</td>
+          <td>{{ attendee['morning'] }}</td>
+          <td>{{ attendee['afternoon'] }}</td>
+          <td>{{ attendee['void'] }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </body>
+  {% endblock %}
+

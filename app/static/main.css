@@ -1,0 +1,181 @@
+/* 
+ * https://stackoverflow.com/questions/20446252/stretch-div-to-a4-size
+ */
+
+body {
+  background-color: #dbe4f9;
+  font-family: "Open Sans", sans-serif;
+}
+
+body.badge {
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+}
+
+body.overview {
+  margin: 1.2cm;
+  padding: 1cm;
+}
+
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+}
+
+.frontlogo {
+  margin-top: 10px;
+}
+
+.qrcode {
+  width: 100%;
+  display: inline-block;
+}
+
+.logoheader {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+div.logos {
+  width: 100%;
+  display: inline-block;
+}
+
+div.quote {
+  margin-left: 1cm;
+  margin-right: 1cm;
+  margin-top: 0.3cm;
+  margin-bottom: 0.3cm;
+  font-size: 10pt;
+  font-weight: 400;
+  background-color: #bde0fe;
+}
+
+div.logo_bar {
+  margin-top: 0.3cm;
+  margin-bottom: 0.3cm;
+}
+
+div.logo_footer {
+  position: absolute;
+  bottom: 0.5cm;
+}
+
+span.author {
+  font-style: italic;
+}
+
+img.logos {
+  width: 8cm;
+  height: 100%;
+}
+
+.qrimg {
+  width: 5cm;
+  height: 100%;
+}
+
+.page {
+  width: 21cm;
+  height: 29.7cm;
+  padding: 2cm;
+  margin: 0px 0px 0px 0px;
+  /*    border: 10px #D3D3D3 solid;*/
+  background: white;
+  position: relative;
+}
+
+div.visitorname {
+  margin-top: 0.3cm;
+  margin-bottom: 0.3cm;
+}
+
+span.name {
+  font-size: 24pt;
+}
+
+p.breakout {
+  margin-top: 0.2cm;
+  margin-bottom: 0.2cm;
+  margin-left: 0.1cm;
+  margin-right: 0.1cm;
+}
+span.breakout-label {
+  font-size: 10pt;
+  font-weight: 700;
+  margin-top: 0.1cm;
+  margin-bottom: 0.05cm;
+}
+
+span.breakout-choice {
+  display: inline-block;
+  font-size: 8pt;
+  font-weight: 400;
+  margin-top: 0.1cm;
+  margin-bottom: 0.1cm;
+  padding: 0.1cm 0.8cm;
+}
+
+span.company-label {
+  font-size: 18pt;
+  font-weight: 400;
+}
+
+span.company {
+  font-size: 18pt;
+  font-weight: 400;
+}
+
+.topleft {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 10.5cm;
+  height: 14.85cm;
+  background-color: #ffe5d9;
+  border: none;
+  border-bottom: 1px dashed #aaa;
+}
+
+.topright {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 10.5cm;
+  height: 14.85cm;
+  background-color: #ffe5d9;
+  border: none;
+  border-left: 1px dashed #aaa;
+  border-bottom: 1px dashed #aaa;
+}
+
+.bottomright {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 10.5cm;
+  height: 14.85cm;
+  border: none;
+  border-left: 1px dashed #aaa;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 10.5cm;
+  height: 14.85cm;
+  border: none;
+}
+
+@media print {
+  .pagebreak {
+    page-break-before: always;
+  } /* page-break-after works, as well */
+}

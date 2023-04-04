@@ -1,0 +1,21 @@
+
+
+data_quotes = [{ 'quote' : '“Without big data, you are blind and deaf and in the middle of a freeway.”', 'author' : 'Geoffrey Moore' },
+{ 'quote' : '“Data is the new oil.”', 'author' : 'Clive Humby' },
+{ 'quote' : '“No great marketing decisions have ever been made on qualitative data.”', 'author' : 'John Sculley' },
+{ 'quote' : '“Torture the data, and it will confess to anything.”', 'author' : 'Ronald Coase' },
+{ 'quote' : '“With data collection, ‘the sooner the better’ is always the best answer.”', 'author' : 'Marissa Mayer' },
+{ 'quote' : '“Big data isn’t about bits, it’s about talent.”', 'author' : 'Douglas Merrill' },
+{ 'quote' : '“It is a capital mistake to theorize before one has data.”', 'author' : 'Sherlock Holmes' },
+{ 'quote' : '“You can have data without information, but you cannot have information without data.”', 'author' : 'Daniel Keys Moran' },
+{ 'quote' : '“If we have data, let’s look at data. If all we have are opinions, let’s go with mine.”', 'author' : 'Jim Barksdale' },
+{ 'quote' : '“Above all else, show the data.”', 'author' : 'Edward R. Tufte' },
+{ 'quote' : '“Without a systematic way to start and keep data clean, bad data will happen.”', 'author' : 'Donato Diorio' },
+{ 'quote' : '“Contact data ages like fish, not wine … it gets worse as it gets older, not better.”', 'author' : 'Gregg Thaler' },
+{ 'quote' : '“Data really powers everything that we do.”', 'author' : 'Jeff Weiner' },
+{ 'quote' : '“Data that is loved tends to survive.”', 'author' : 'Kurt Bollacker' },
+{ 'quote' : '“Errors using inadequate data are much less than those using no data at all.”', 'author' : 'Charles Babbage' },
+{ 'quote' : '“Where there is data smoke, there is business fire.”', 'author' : 'Thomas Redman' },
+{ 'quote' : '“Prototypes are easy, production is hard.”', 'author' : 'Elon Musk' },
+{ 'quote' : "“Simplicity is key when working with data and machine learning. Stick to the fundamentals and avoid overcomplicating things with too many experiments.“", 'author' : 'ChatGPT' }, 
+{ 'quote' : '“We have to learn to interrogate our data collection process, not just our algorithms.”', 'author' : 'Cathy O’Neil' },]

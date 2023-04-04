@@ -1,0 +1,5 @@
+email_mapping:
+    john.doe@company.com: john.doe+dds@company.com
+    jane.doe@company.com: jane.doe+dds@company.com
+    bob.smith@company.com: bob.smith+dds@company.com
+    alice.jones@company.com: alice.jones+dds@company.com

@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block content %}
+  <body class="overview">
+    <h1>Welcome to the Conference Badge Generator</h1>
+    <p>Please choose an option:</p>
+    <ul>
+      <li><a href="/all_badges">Generate Badges</a></li>
+      <li><a href="/visitors_list">Visitors List</a></li>
+      <li><a href="/badge/1">First 25 Badges (URL can be modified)</a></li>
+      <li><a href="/visitor/1">First (1) Visitor (URL can be modified)</a></li>
+      <li><a href="/empty_badge">Badge without Name</a></li>
+      <li><a href="/fuzzy_email">View Fuzzy Email Matches</a></li>
+      <li><a href="/unlinked_breakouts">Unlinked Breakouts Entries</a></li>
+    </ul>
+
+    <h2>Conference Statistics</h2>
+    <table>
+      <tr>
+        <td>Number of Visitors:</td>
+        <td>{{ conference_stats['visitors_count'] }}</td>
+      </tr>
+      <tr>
+        <td>Number of Visitors with Breakout Signup:</td>
+        <td>{{ conference_stats['visitors_breakout_count'] }}</td>
+      </tr>
+      <tr>
+        <td>Morning Breakout Counts:</td>
+        <td>
+          {% for breakout, count in
+          conference_stats['morning_breakouts'].items() %} {{ breakout }}: {{
+          count }}<br />
+          {% endfor %}
+        </td>
+      </tr>
+      <tr>
+        <td>Afternoon Breakout Counts:</td>
+        <td>
+          {% for breakout, count in
+          conference_stats['afternoon_breakouts'].items() %} {{ breakout }}: {{
+          count }}<br />
+          {% endfor %}
+        </td>
+      </tr>
+    </table>
+  </body>
+  {% endblock %}
+
